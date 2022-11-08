@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Formulario</title>
+	<link rel="stylesheet" media="" href="style.css" />
+	<link rel="icon" type="image/jpg" href="img/icon-error.svg" />
+</head>
+<body>
+	<section class="container-form">
+		<div class="info">
+			<h1 class="title">Aprende a programar observando a los demas</h1>
+			<p>
+				Vea como los desarrolladores experimentandos resuelven problemas en tiempo real. Ver tutoriales con
+				scripts es Genial, pero entender como piensan los desarrolladores es invaluable.
+			</p>
+		</div>
+		<div class="form">
+			<p class="price">
+				<strong>Pruebalo gratis 7 dias</strong> y luego $20.99 / mes a partir de entonces
+			</p>
+			<form class="data">
+				<div class="input">
+					<input name="firstName" type="text" placeholder="Nombre" autocomplete="off" />
+					<span id="error-firstName"></span>
+				</div>
+				<div class="input">
+					<input name="lastName" type="text" placeholder="Apellido" autocomplete="off" />
+					<span id="error-lastName"></span>
+				</div>
+				<div class="input">
+					<input name="email" type="text" placeholder="Direccion de correo electronico" autocomplete="off" />
+					<span id="error-email"></span>
+				</div>
+				<div class="input">
+					<input name="password" type="password" placeholder="Contraseña" autocomplete="off" />
+					<span id="error-password"></span>
+				</div>
+				<button type="submit" class="button">RECLAMA TU PRUEBA GRATUITA</button>
+
+				<p class="conditions"> Al hacer clic en el boton, usted acepta nuestros
+					<a class="link" href="https://policies.google.com/terms?hl=es" target="_blank">
+						<strong>terminos y servicios</strong>
+					</a>
+				</p>
+			</form>
+		</div>
+	</section>
+	<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins";
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  justify-content: center;
+}
+
+.container-form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.info {
+  max-width: 38rem;
+  margin: auto;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.price {
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.data {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.input input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 15px 0px 15px 20px;
+  border: 1px solid rgba(90, 85, 81, 0.95);
+}
+
+.input span {
+  color: red;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.button {
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: 5px;
+  padding: 20px 30px;
+  width: 100%;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.conditions {
+  color: hsl(246, 25%, 77%);
+}
+
+.link {
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  .container-form { flex-direction: row }
+
+  .title { font-size: 50px }
+
+  .info { text-align: left }
+}
